@@ -1,0 +1,138 @@
+char[] woord = new char[16];
+
+boolean click00 = false;
+boolean click01 = false;
+boolean click02 = false;
+boolean click03 = false;
+boolean click10 = false;
+boolean click11 = false;
+boolean click12 = false;
+boolean click13 = false;
+boolean click20 = false;
+boolean click21 = false;
+boolean click22 = false;
+boolean click23 = false;
+boolean click30 = false;
+boolean click31 = false;
+boolean click32 = false;
+boolean click33 = false;
+
+
+char[] letters = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','A','E','I','O','U','A','E','I','O','U'};
+
+char vak00 =  letters[(int)random (35)];
+char vak01 =  letters[(int)random (35)];
+char vak02 =  letters[(int)random (35)];
+char vak03 =  letters[(int)random (35)];
+char vak10 =  letters[(int)random (35)];
+char vak11 =  letters[(int)random (35)];
+char vak12 =  letters[(int)random (35)];
+char vak13 =  letters[(int)random (35)];
+char vak20 =  letters[(int)random (35)];
+char vak21 =  letters[(int)random (35)];
+char vak22 =  letters[(int)random (35)];
+char vak23 =  letters[(int)random (35)];
+char vak30 =  letters[(int)random (35)];
+char vak31 =  letters[(int)random (35)];
+char vak32 =  letters[(int)random (35)];
+char vak33 =  letters[(int)random (35)];
+
+void setup(){
+  size(525,650);
+  stroke(0);
+  
+  fill(127,0,0);
+  rect(0, 0, 525, 525);
+  
+  fill(255);
+  rect(25, 25, 100, 100);
+  rect(150, 150, 100, 100);
+  rect(25, 150, 100, 100);
+  rect(150, 25, 100, 100);
+  rect(275, 25, 100, 100);
+  rect(25, 275, 100, 100);
+  rect(150, 275, 100, 100);
+  rect(275, 150, 100, 100);
+  rect(275, 275, 100, 100);
+  rect(25, 400, 100, 100);
+  rect(400, 25, 100, 100);
+  rect(400,150, 100, 100);
+  rect(400, 275, 100, 100);
+  rect(150, 400, 100, 100);
+  rect(275, 400, 100, 100);
+  rect(400, 400, 100, 100);
+  
+  fill(0);
+  textSize(40);
+  text(vak00, 65 , 100);
+  text(vak01, 65 , 225);
+  text(vak02, 65 , 350);
+  text(vak03, 65 , 475);
+  text(vak10, 190 , 100);
+  text(vak11, 190 , 225);
+  text(vak12, 190 , 350);
+  text(vak13, 190 , 475);
+  text(vak20, 315 , 100);
+  text(vak21, 315 , 225);
+  text(vak22, 315 , 350);
+  text(vak23, 315 , 475);
+  text(vak30, 440 , 100);
+  text(vak31, 440 , 225);
+  text(vak32, 440 , 350);
+  text(vak33, 440 , 475);
+}
+
+
+
+/*void mousePressed() {
+  switch(click00) {
+  case click00: 
+    println("Zero"); 
+    break;
+  case click01: 
+    println("Zero"); 
+    break;
+  case click02: 
+    println("Zero"); 
+    break;
+  case click03: 
+    println("Zero"); 
+    break;
+  case click10: 
+    println("Zero"); 
+    break;
+  case click11: 
+    println("Zero");
+    break;
+  case click12: 
+    println("Zero"); 
+    break;
+  case click13: 
+    println("Zero"); 
+    break;
+  case click20: 
+    println("Zero"); 
+    break;
+  case click21: 
+    println("Zero");  
+    break;
+  case click22: 
+    println("Zero"); 
+    break;
+  case click23: 
+    println("Zero"); 
+    break;
+  case click30: 
+    println("Zero"); 
+    break;
+  case click31: 
+    println("Zero");  
+    break;
+  case click32: 
+    println("Zero");  
+    break;
+  case click33: 
+    println("Zero");  
+    break;
+  }
+}*/
